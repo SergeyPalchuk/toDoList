@@ -5,6 +5,14 @@ body{
     justify-content: center;
 }
 .todolistBlock{
-    width: 700px;
+    width: 500px;
     border: 3px solid black;
+    border-radius: 10px;
+}
+
+.labelBlock{
+    font-size: 40px;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 5px;
 }
