@@ -1,9 +1,9 @@
 import React from 'react'
-import ts from './Todolist.module.css'
+import ts from './Task.module.css'
 
 const Task = (props)=>{
     return(
-        <div>
+        <div className={ts.taskBlock}>
             <div className={ts.textBlock}>{props.taskText}</div>
             <div></div>
         </div>

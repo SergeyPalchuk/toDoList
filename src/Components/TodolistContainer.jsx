@@ -7,8 +7,9 @@ const mapStateToProps=(state)=>{
     
     return({
         todolist:state.todolist,
-        
-        tasks: state.todolist.tasks.map(el=>{return(<Task taskText ={el.taskText}/>)})
+        tasks: state.todolist.tasks.map(el=>{return(<Task taskText ={el.taskText}/>)}),
+        newTaskText: state.todolist.newTaskText
+
     })
 }
 
